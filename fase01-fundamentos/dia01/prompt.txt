@@ -1,0 +1,86 @@
+Sou INICIANTE em programação, nunca programei antes. Estou começando a aprender Rust do zero, no meu primeiro dia de estudos.
+
+Crie um material de estudo completo usando DESIGN INSTRUCIONAL e técnicas de aprendizagem efetiva sobre:
+
+CONTEÚDO TÉCNICO:
+1. Instalação do Rust (rustc, cargo, rustfmt) em Windows e Linux
+2. Configuração do VSCode com rust-analyzer
+3. Criação do primeiro projeto com Cargo
+4. Estrutura de um projeto Rust (Cargo.toml, src/main.rs)
+5. Comandos essenciais: cargo build, cargo run, cargo check
+
+ESTRUTURA BASEADA EM DESIGN INSTRUCIONAL:
+
+📋 OBJETIVOS DE APRENDIZAGEM (SMART):
+- Liste 3-5 objetivos claros, mensuráveis e específicos do dia
+- Use verbos de ação (identificar, criar, executar, explicar)
+
+🎭 ATIVAÇÃO DO CONHECIMENTO PRÉVIO:
+- Perguntas para conectar com experiências do aluno
+- Analogia central: Rust como uma "oficina de ferreiro"
+- História introdutória envolvente (2-3 parágrafos)
+
+📚 APRESENTAÇÃO DO CONTEÚDO:
+- Informação em blocos pequenos (chunking)
+- Passo a passo MUITO detalhado da instalação
+- Diagramas Mermaid/UML OBRIGATÓRIOS:
+  * Fluxograma do processo de instalação
+  * Diagrama de estrutura de diretórios do projeto
+  * Sequência de compilação e execução
+- Anatomia do Hello World linha por linha
+- Glossário de termos técnicos
+
+💡 DEMONSTRAÇÃO E MODELAGEM:
+- Exemplo completo comentado
+- Código anotado com explicações inline
+- Screencast textual (passo a passo como se fosse vídeo)
+
+🎯 PRÁTICA GUIADA (APENAS 1 EXERCÍCIO COMPLETO):
+- Exercício principal: Cartão de Visitas Digital
+  * Contexto e motivação do exercício
+  * Objetivo claro do que será construído
+  * Especificação detalhada
+  * Código inicial (esqueleto)
+  * Dicas progressivas (revelar gradualmente)
+  * Solução completa comentada
+  * Variações opcionais para explorar
+  * Conexão com mundo real
+
+🔄 FEEDBACK E AVALIAÇÃO:
+- Checklist de verificação
+- Erros comuns e soluções
+- Troubleshooting detalhado
+- Auto-avaliação (3-5 perguntas reflexivas)
+
+🚀 TRANSFERÊNCIA E APLICAÇÃO:
+- Desafio bônus opcional (para quem quer ir além)
+- Conexão com próximo dia
+- Recursos extras para aprofundamento
+
+TÉCNICAS PEDAGÓGICAS A USAR:
+- Andragogia (aprendizagem de adultos)
+- Storytelling (história do ferreiro)
+- Scaffolding (suporte gradual)
+- Chunking (informação em pedaços digestíveis)
+- Dual coding (texto + visual)
+- Elaboration (conexões com conhecimento prévio)
+- Retrieval practice (questões de fixação)
+- Spaced repetition (revisar conceitos anteriores)
+
+DIAGRAMAS MERMAID OBRIGATÓRIOS (mínimo 3):
+1. Fluxograma do processo de instalação
+2. Diagrama de estrutura de arquivos do projeto
+3. Sequência de compilação e execução
+4. Mapa mental dos conceitos do dia
+
+IMPORTANTE:
+- Use MUITAS analogias do mundo real
+- Explique como se fosse para uma criança de 12 anos
+- Não assuma NENHUM conhecimento prévio
+- Cada conceito técnico: analogia + explicação + diagrama + exemplo
+- Intercale teoria e prática constantemente
+- Tom encorajador e motivacional
+- Celebre pequenas vitórias
+- Não exagere nos emojis
+
+Formato: markdown estruturado, muito visual, com diagramas Mermaid, analogias criativas e checkpoints.
