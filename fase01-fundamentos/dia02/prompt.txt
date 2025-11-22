@@ -1,0 +1,89 @@
+Sou INICIANTE em programação aprendendo Rust. Dia 2 de estudos.
+
+Crie material SUPER didático usando DESIGN INSTRUCIONAL sobre variáveis e tipos de dados em Rust:
+
+CONTEÚDO TÉCNICO:
+1. Imutabilidade por padrão vs let mut
+2. Shadowing (conceito único do Rust)
+3. Tipos escalares: i8-i128, u8-u128, f32, f64, bool, char
+4. Tipos compostos: tuplas e arrays
+5. Type casting com 'as'
+6. Parse de strings para números
+
+ESTRUTURA BASEADA EM DESIGN INSTRUCIONAL:
+
+📋 OBJETIVOS DE APRENDIZAGEM (SMART):
+- 3-5 objetivos mensuráveis do dia
+- Verbos de ação claros
+
+🎭 ATIVAÇÃO DO CONHECIMENTO PRÉVIO:
+- Revisão rápida do Dia 1
+- Analogia central: "O Armazém Organizado" com diferentes tipos de caixas
+- História introdutória sobre organização e segurança
+
+📚 APRESENTAÇÃO DO CONTEÚDO:
+- Blocos pequenos de informação
+- DIAGRAMAS MERMAID OBRIGATÓRIOS:
+  * Diagrama de classes mostrando hierarquia de tipos
+  * Fluxograma de decisão: qual tipo usar quando
+  * Diagrama de memória: stack para tipos simples
+  * Mapa mental: imutabilidade vs mutabilidade
+- Tabela comparativa de tipos numéricos
+- Exemplos visuais de shadowing
+
+💡 DEMONSTRAÇÃO E MODELAGEM:
+- Exemplos comentados de cada conceito
+- Comparações lado a lado (código que funciona vs que não funciona)
+- Demonstração de conversões de tipos
+
+🎯 PRÁTICA GUIADA (1 EXERCÍCIO COMPLETO):
+- Exercício: Calculadora de Saúde Pessoal
+  * Calcular IMC (peso/altura)
+  * Calcular taxa metabólica basal
+  * Mostrar recomendações
+  * Usar diferentes tipos de variáveis
+  * Praticar conversões
+  * Contexto motivador
+  * Especificação clara
+  * Código esqueleto
+  * Dicas progressivas
+  * Solução completa comentada
+  * Variações opcionais
+
+🔄 FEEDBACK E AVALIAÇÃO:
+- Checklist de conceitos
+- Erros comuns de tipos
+- Quiz de fixação (5 questões)
+- Auto-avaliação
+
+🚀 TRANSFERÊNCIA E APLICAÇÃO:
+- Desafio bônus: Conversor de unidades
+- Preparação para Dia 3
+- Recursos complementares
+
+TÉCNICAS PEDAGÓGICAS:
+- Analogias visuais (caixas, etiquetas, prateleiras)
+- Exemplos do cotidiano
+- Storytelling
+- Scaffolding
+- Chunking
+- Dual coding
+- Comparação e contraste
+- Aprendizagem por descoberta guiada
+
+DIAGRAMAS MERMAID OBRIGATÓRIOS (mínimo 4):
+1. Hierarquia de tipos em Rust
+2. Fluxograma: Escolher tipo certo
+3. Diagrama de memória: variáveis imutáveis vs mutáveis
+4. Mapa mental dos conceitos do dia
+
+IMPORTANTE:
+- Muitas analogias do mundo real
+- Linguagem simples e acessível
+- Tom encorajador
+- Celebrar progressos
+- Conectar com experiências cotidianas
+- Evitar sobrecarga cognitiva
+- Não exagere nos emojis
+
+Formato: markdown estruturado, visual, com diagramas Mermaid e checkpoints claros.
