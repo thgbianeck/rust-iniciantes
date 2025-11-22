@@ -129,9 +129,9 @@ flowchart TD
 
 1. Abra seu navegador (Chrome, Edge, Firefox - qualquer um)
 2. Digite na barra de endereço: `https://rustup.rs`
-3. Você verá um site minimalista com um botão grande
-4. Clique no botão **"Download rustup-init.exe (64-bit)"**
-5. O arquivo (cerca de 8 MB) será baixado na pasta Downloads
+3. Você verá um site minimalista com um link grande
+4. Clique no link **"rustup-init.exe (64-bit)"**
+5. O arquivo (cerca de menos de 20 MB) será baixado na pasta Downloads
 
 **PASSO 2: Executar o Instalador**
 
@@ -157,7 +157,7 @@ Current installation options:
                profile: default
   modify PATH variable: yes
 
-1) Proceed with installation (default)
+1) Proceed with standard installation (default - just press enter)
 2) Customize installation
 3) Cancel installation
 ```
@@ -197,7 +197,7 @@ rustc --version
 Se aparecer algo como:
 
 ```
-rustc 1.83.0 (90b35a623 2024-11-26)
+rustc 1.91.1 (ed61e7d7e 2025-11-07)
 ```
 
 **🎉 PARABÉNS! Rust instalado com sucesso!**
@@ -314,7 +314,7 @@ O **rust-analyzer** é seu assistente inteligente. Ele:
 2. Na lateral esquerda, clique no ícone de **quadradinhos** (Extensions)
    - Ou aperte **Ctrl + Shift + X** (Windows/Linux)
 3. Na caixa de busca, digite: `rust-analyzer`
-4. Vai aparecer uma extensão com logo de engrenagem laranja
+4. Vai aparecer uma extensão com logo branco
 5. Clique no botão **"Install"** (Instalar)
 6. Aguarde uns segundos
 7. Pode fechar a aba da extensão
@@ -518,7 +518,7 @@ Abra o arquivo `Cargo.toml` no VSCode. Você verá:
 [package]
 name = "hello_rust"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 [dependencies]
 ```
@@ -530,7 +530,7 @@ edition = "2021"
 | `[package]` | Seção de informações do pacote | "Dados Pessoais" no formulário |
 | `name = "hello_rust"` | Nome do seu projeto | Seu nome de batismo |
 | `version = "0.1.0"` | Versão do projeto | Sua idade/série |
-| `edition = "2021"` | Versão da linguagem Rust usada | "Modelo 2021" (como carros) |
+| `edition = "2024"` | Versão da linguagem Rust usada | "Modelo 2024" (como carros) |
 | `[dependencies]` | Bibliotecas que você vai usar | Lista de ingredientes da receita |
 
 **Por enquanto, `[dependencies]` está vazio** - não precisamos de nenhuma biblioteca externa para nosso primeiro programa!

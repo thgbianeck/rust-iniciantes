@@ -1,0 +1,45 @@
+# .gitignore padrão para projetos Rust
+# Ignora artefatos de build gerados pelo Cargo (inclui subpastas)
+# Use `target/` sem barra inicial para cobrir `target/` em qualquer subdiretório
+target/
+
+# Backups e swap de editores
+**/*.rs.bk
+**/*.rs.swp
+**/*~
+
+# Arquivo de lock (opcional para bibliotecas; pode ser versionado para binários)
+Cargo.lock
+
+# Configurações de IDE/editor
+.idea/
+.vscode/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Node / front-end (quando presentes em monorepos)
+node_modules/
+dist/
+build/
+
+# Arquivos de ambiente, logs e temporários
+.env
+*.log
+*.tmp
+coverage/
+
+# Artefatos binários gerados pela compilação (úteis em Windows/Linux/macOS)
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.pdb
+
+# Outros
+tags
+
+# Pasta do cargo local (se existir) — geralmente não necessária, mas pode ser ignorada
+.cargo/
