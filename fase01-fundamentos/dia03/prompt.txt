@@ -1,0 +1,93 @@
+Sou INICIANTE em programação estudando Rust. Dia 3, foco em controle de fluxo.
+
+Crie material completo usando DESIGN INSTRUCIONAL sobre estruturas de controle:
+
+CONTEÚDO TÉCNICO:
+1. if/else como EXPRESSÕES (não apenas statements)
+2. Loops: loop, while, for
+3. Ranges (1..10, 1..=10)
+4. match - pattern matching poderoso
+5. break e continue com labels
+
+ESTRUTURA BASEADA EM DESIGN INSTRUCIONAL:
+
+📋 OBJETIVOS DE APRENDIZAGEM (SMART):
+- 3-5 objetivos específicos do dia
+- Foco em habilidades práticas
+
+🎭 ATIVAÇÃO DO CONHECIMENTO PRÉVIO:
+- Revisão de variáveis e tipos
+- Analogia central: "Mapa do Tesouro" - escolher caminhos e rotas
+- História de aventura com decisões
+
+📚 APRESENTAÇÃO DO CONTEÚDO:
+- Conceitos em blocos digestíveis
+- DIAGRAMAS MERMAID OBRIGATÓRIOS:
+  * Fluxogramas de if/else
+  * Fluxograma de diferentes tipos de loops
+  * Diagrama de decisão com match
+  * Fluxograma comparativo: quando usar cada loop
+  * Diagrama de sequência de execução
+- Tabela comparativa: loop vs while vs for
+- Exemplos visuais de fluxo de execução
+
+💡 DEMONSTRAÇÃO E MODELAGEM:
+- Exemplos progressivos de complexidade
+- Código comentado linha a linha
+- Comparações: imperativo vs expressivo
+- Demonstração de match patterns
+
+🎯 PRÁTICA GUIADA (1 EXERCÍCIO COMPLETO):
+- Exercício: Jogo de Adivinhação Interativo
+  * Sistema de tentativas
+  * Dicas (maior/menor)
+  * Validação de entrada
+  * Contador de tentativas
+  * Sistema de pontuação
+  * Usar if, loops, match
+  * Contexto gamificado e divertido
+  * Especificação detalhada
+  * Código inicial estruturado
+  * Dicas em etapas
+  * Solução completa comentada
+  * Melhorias opcionais (níveis de dificuldade)
+
+🔄 FEEDBACK E AVALIAÇÃO:
+- Checklist de estruturas
+- Erros comuns em loops
+- Debug de loops infinitos
+- Quiz interativo
+- Auto-avaliação reflexiva
+
+🚀 TRANSFERÊNCIA E APLICAÇÃO:
+- Desafio bônus: Menu interativo
+- Conexão com Dia 4 (funções)
+- Recursos extras
+
+TÉCNICAS PEDAGÓGICAS:
+- Gamificação
+- Storytelling (aventura)
+- Fluxogramas visuais
+- Comparação lado a lado
+- Exemplos incrementais
+- Aprendizagem por tentativa e erro
+- Feedback imediato
+
+DIAGRAMAS MERMAID OBRIGATÓRIOS (mínimo 5):
+1. Fluxograma if/else/else if
+2. Fluxograma loop com break
+3. Fluxograma while
+4. Fluxograma for com range
+5. Diagrama de decisão match
+6. Mapa mental: quando usar cada estrutura
+
+IMPORTANTE:
+- Analogias de caminhos e decisões
+- Visualizar fluxo de execução
+- Exemplos do dia a dia
+- Tom motivador e divertido
+- Prevenir frustração com loops infinitos
+- Debugging como habilidade
+- Não exagere nos emojis
+
+Formato: markdown estruturado, muito visual, com diagramas Mermaid, tons de aventura.
