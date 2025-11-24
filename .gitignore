@@ -3,6 +3,8 @@
 # Use `target/` sem barra inicial para cobrir `target/` em qualquer subdiretório
 target/
 
+.crossnote/
+
 # Backups e swap de editores
 **/*.rs.bk
 **/*.rs.swp

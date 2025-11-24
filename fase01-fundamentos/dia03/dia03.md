@@ -351,14 +351,14 @@ flowchart TD
 
 ### 📊 Tabela Comparativa: Loop vs While vs For
 
-| Característica | loop | while | for |
-|---|---|---|---|
-| **Quando usar** | Loop infinito até break | Enquanto condição é verdadeira | Iterar sobre sequências |
-| **Condição** | Nenhuma (infinito) | Verifica antes de cada volta | Automática (baseada em coleção) |
-| **Exemplo de uso** | Menus, servidores, games | Algoritmos iterativos | Processar arrays, ranges |
-| **Retorna valor?** | Sim, com `break valor` | Não diretamente | Não diretamente |
-| **Risco de loop infinito** | Alto (sem break) | Médio (condição sempre true) | Baixo (termina automaticamente) |
-| **Clareza de código** | Explícito sobre infinito | Clara intenção condicional | Mais legível para coleções |
+| Característica             | loop                     | while                          | for                             |
+| -------------------------- | ------------------------ | ------------------------------ | ------------------------------- |
+| **Quando usar**            | Loop infinito até break  | Enquanto condição é verdadeira | Iterar sobre sequências         |
+| **Condição**               | Nenhuma (infinito)       | Verifica antes de cada volta   | Automática (baseada em coleção) |
+| **Exemplo de uso**         | Menus, servidores, games | Algoritmos iterativos          | Processar arrays, ranges        |
+| **Retorna valor?**         | Sim, com `break valor`   | Não diretamente                | Não diretamente                 |
+| **Risco de loop infinito** | Alto (sem break)         | Médio (condição sempre true)   | Baixo (termina automaticamente) |
+| **Clareza de código**      | Explícito sobre infinito | Clara intenção condicional     | Mais legível para coleções      |
 
 ---
 
