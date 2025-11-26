@@ -1,0 +1,85 @@
+Sou INICIANTE em programação estudando Rust. Dia 4: Funções.
+
+Material didático com DESIGN INSTRUCIONAL sobre funções em Rust:
+
+CONTEÚDO TÉCNICO:
+1. Sintaxe: fn nome(param: tipo) -> tipo_retorno
+2. Parâmetros: por valor vs por referência (introdução simples)
+3. Retorno implícito (sem ;) vs explícito (return)
+4. Retorno de tuplas para múltiplos valores
+5. Statements vs Expressions (conceito fundamental)
+
+ESTRUTURA BASEADA EM DESIGN INSTRUCIONAL:
+
+📋 OBJETIVOS DE APRENDIZAGEM:
+- Objetivos claros e práticos
+- Foco em modularização de código
+
+🎭 ATIVAÇÃO DO CONHECIMENTO PRÉVIO:
+- Revisão de controle de fluxo
+- Analogia: "Fábrica de Componentes" - máquinas que transformam entrada em saída
+- História sobre reutilização e organização
+
+📚 APRESENTAÇÃO DO CONTEÚDO:
+- DIAGRAMAS MERMAID OBRIGATÓRIOS:
+  * Diagrama de função: entrada → processamento → saída
+  * Fluxograma de chamada de função
+  * Diagrama de sequência: main chamando outras funções
+  * Diagrama de componentes: programa modular
+  * Comparação visual: statement vs expression
+- Exemplos progressivos
+- Tabela de tipos de retorno
+
+💡 DEMONSTRAÇÃO E MODELAGEM:
+- Evolução de código: sem funções → com funções
+- Benefícios da modularização
+- Funções que chamam funções
+
+🎯 PRÁTICA GUIADA (1 EXERCÍCIO COMPLETO):
+- Exercício: Sistema de Validação de Cadastro
+  * Validar email
+  * Validar senha (regras)
+  * Validar idade
+  * Validar CPF básico
+  * Função main que coordena tudo
+  * Múltiplas funções trabalhando juntas
+  * Usar tuplas para múltiplos retornos
+  * Contexto real e útil
+  * Especificação por etapas
+  * Scaffolding adequado
+  * Solução modular comentada
+  * Extensões opcionais
+
+🔄 FEEDBACK E AVALIAÇÃO:
+- Checklist de boas práticas
+- Erros comuns em funções
+- Quiz sobre retornos
+- Auto-avaliação
+
+🚀 TRANSFERÊNCIA E APLICAÇÃO:
+- Desafio: Calculadora modular
+- Preparação para Dia 5
+- Recursos complementares
+
+TÉCNICAS PEDAGÓGICAS:
+- Analogia de fábrica/máquinas
+- Decomposição de problemas
+- Bottom-up e top-down
+- Modularização progressiva
+- DRY principle (Don't Repeat Yourself)
+
+DIAGRAMAS MERMAID OBRIGATÓRIOS (mínimo 4):
+1. Anatomia de uma função
+2. Fluxo de chamadas de função
+3. Diagrama de sequência do exercício
+4. Mapa mental: quando criar função
+
+IMPORTANTE:
+- Ênfase em organização e reutilização
+- Exemplos do mundo real
+- Tom profissional mas acessível
+- Mostrar valor prático
+- Prevenir funções muito complexas
+- Não exagere nos emojis
+
+Formato: markdown estruturado, diagramas claros, exemplos práticos.
