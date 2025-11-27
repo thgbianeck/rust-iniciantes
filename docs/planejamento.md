@@ -6011,10 +6011,10 @@ VISUALIZAÇÕES:
 
 SETUP:
 Cargo.toml:
-```toml
+\```toml
 [dependencies]
 rayon = "1.7"
-```
+\```
 
 💡 DEMONSTRAÇÃO E MODELAGEM:
 - Trocar iter por par_iter
