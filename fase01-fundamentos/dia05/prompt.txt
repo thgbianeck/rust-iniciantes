@@ -1,0 +1,85 @@
+Sou INICIANTE em programação em Rust. Dia 5: Strings e I/O.
+
+Material completo com DESIGN INSTRUCIONAL sobre Strings em Rust:
+
+CONTEÚDO TÉCNICO:
+1. String vs &str (owned vs borrowed) - CONCEITO CRUCIAL
+2. String::from() e .to_string()
+3. Concatenação: +, format!, push_str
+4. Métodos: len, trim, split, replace, contains
+5. Input com std::io::stdin()
+6. Formatação: println!, format!, {:?}, {:#?}
+7. Tratamento básico de erros em input
+
+ESTRUTURA BASEADA EM DESIGN INSTRUCIONAL:
+
+📋 OBJETIVOS DE APRENDIZAGEM:
+- Objetivos sobre manipulação de texto
+- Foco em interação com usuário
+
+🎭 ATIVAÇÃO DO CONHECIMENTO PRÉVIO:
+- Revisão de tipos e funções
+- Analogia: "Biblioteca de Textos" - livros (String) vs referências (&str)
+- História sobre textos e comunicação
+
+📚 APRESENTAÇÃO DO CONTEÚDO:
+- DIAGRAMAS MERMAID OBRIGATÓRIOS:
+  * Diagrama de classes: String vs &str
+  * Diagrama de memória: heap vs stack para strings
+  * Fluxograma de leitura de input
+  * Diagrama de sequência: interação usuário-programa
+  * Mapa mental de métodos String
+- Tabela comparativa String vs &str
+- Exemplos visuais de ownership
+
+💡 DEMONSTRAÇÃO E MODELAGEM:
+- Exemplos de manipulação de strings
+- Padrões de input/output
+- Tratamento de entrada do usuário
+
+🎯 PRÁTICA GUIADA (1 EXERCÍCIO COMPLETO):
+- Exercício: Sistema de Cadastro Interativo
+  * Ler dados do usuário (nome, email, telefone)
+  * Validar e formatar inputs
+  * Confirmar dados
+  * Usar String e &str apropriadamente
+  * Tratamento de erros
+  * Feedback amigável
+  * Contexto prático
+  * Interface textual limpa
+  * Código bem estruturado
+  * Solução completa
+  * Melhorias opcionais (menu, edição)
+
+🔄 FEEDBACK E AVALIAÇÃO:
+- Checklist de conceitos
+- Erros comuns com strings
+- Quiz sobre ownership
+- Auto-avaliação
+
+🚀 TRANSFERÊNCIA E APLICAÇÃO:
+- Desafio: Analisador de texto
+- Preparação para Dia 6
+- Recursos extras
+
+TÉCNICAS PEDAGÓGICAS:
+- Analogia de biblioteca e referências
+- Diagrama de memória visual
+- Interação prática
+- Erro como aprendizagem
+- Comparação sistemática
+
+DIAGRAMAS MERMAID OBRIGATÓRIOS (mínimo 4):
+1. String vs &str (classes e memória)
+2. Fluxo de leitura de input
+3. Ciclo de validação de dados
+4. Arquitetura do sistema de cadastro
+
+IMPORTANTE:
+- String vs &str é confuso - muitos exemplos
+- Prática com input real
+- Tratamento de erros amigável
+- Tom encorajador
+- Preparar para ownership (próxima fase)
+
+Formato: markdown estruturado, diagramas claros, exemplos interativos.
