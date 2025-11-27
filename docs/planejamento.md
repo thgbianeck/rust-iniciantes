@@ -5193,7 +5193,7 @@ REQUISITOS TÉCNICOS:
 - Examples de uso
 
 ESTRUTURA:
-```
+\```
 validator_lib/
 ├── Cargo.toml
 ├── README.md
@@ -5216,7 +5216,7 @@ validator_lib/
 │   └── integration_tests.rs
 └── examples/
     └── usage.rs
-```
+\```
 
 DIAGRAMAS MERMAID OBRIGATÓRIOS:
 1. Arquitetura geral da biblioteca
@@ -5226,13 +5226,13 @@ DIAGRAMAS MERMAID OBRIGATÓRIOS:
 5. Hierarquia de erros
 
 API EXEMPLO:
-```rust {.line-numbers}
+\```rust {.line-numbers}
 let validator = RangeValidator::new(0, 100)
     .and(MultipleOf::new(5));
     
 validator.validate(&75)?; // Ok(())
 validator.validate(&73)?; // Err(ValidationError)
-```
+\```
 
 🏗️ GUIA DE IMPLEMENTAÇÃO:
 
@@ -5335,7 +5335,6 @@ IMPORTANTE:
 
 Formato: markdown estruturado, guia detalhado, celebração de marcos.
 ```
-
 ---
 
 <a name="fase-4"></a>
@@ -6498,7 +6497,7 @@ REQUISITOS TÉCNICOS:
 - Progress bar (indicatif)
 
 ESTRUTURA:
-```
+\```
 web_scraper/
 ├── Cargo.toml
 ├── README.md
@@ -6512,7 +6511,7 @@ web_scraper/
 │   └── error.rs
 └── tests/
     └── integration_tests.rs
-```
+\```
 
 DIAGRAMAS MERMAID OBRIGATÓRIOS:
 1. Arquitetura geral do sistema
@@ -6522,9 +6521,9 @@ DIAGRAMAS MERMAID OBRIGATÓRIOS:
 5. Error handling flow
 
 EXEMPLO DE USO:
-```bash
+\```bash
 cargo run -- --urls urls.txt --max-concurrent 10 --output results.json
-```
+\```
 
 🏗️ GUIA DE IMPLEMENTAÇÃO:
 
@@ -6572,7 +6571,7 @@ ETAPA 8: Testing (30 min)
 💡 CÓDIGO INICIAL:
 
 Cargo.toml:
-```toml
+\```toml
 [package]
 name = "web_scraper"
 version = "0.1.0"
@@ -6587,7 +6586,7 @@ anyhow = "1"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 indicatif = "0.17"
-```
+\```
 
 🎯 EXERCÍCIO COMPLETO COM SUPORTE:
 - Especificação detalhada
@@ -6753,7 +6752,7 @@ PARA CADA OPÇÃO, FORNECER:
    - Autenticação
 
 7. ESTRUTURA DE CÓDIGO
-```
+\```
 project/
 ├── Cargo.toml
 ├── README.md
@@ -6769,7 +6768,7 @@ project/
 │   └── error.rs
 ├── tests/
 └── docs/
-```
+\```
 
 DIAGRAMAS MERMAID OBRIGATÓRIOS (mínimo 6):
 1. Arquitetura geral (componentes)
@@ -6935,7 +6934,7 @@ ETAPA 6: Error Handling (45 min)
 💡 CÓDIGO DE EXEMPLO:
 
 Models:
-```rust {.line-numbers}
+\```rust {.line-numbers}
 use serde::{Deserialize, Serialize};
 use sqlx::FromRow;
 
@@ -6966,10 +6965,10 @@ impl CreateTask {
         Ok(())
     }
 }
-```
+\```
 
 Services:
-```rust {.line-numbers}
+\```rust {.line-numbers}
 pub struct TaskService {
     pool: PgPool,
 }
@@ -6990,7 +6989,7 @@ impl TaskService {
         Ok(task)
     }
 }
-```
+\```
 
 DIAGRAMAS MERMAID:
 1. Database schema atualizado
@@ -7086,7 +7085,7 @@ ESTRUTURA PEDAGÓGICA:
 🎯 GUIA PARA REST API:
 
 ETAPA 1: Framework Setup (45 min)
-```rust {.line-numbers}
+\```rust {.line-numbers}
 use axum::{
     Router,
     routing::{get, post},
@@ -7097,7 +7096,7 @@ async fn app() -> Router {
         .route("/tasks", get(list_tasks).post(create_task))
         .route("/tasks/:id", get(get_task).put(update_task).delete(delete_task))
 }
-```
+\```
 
 ETAPA 2: Handlers (120 min)
 - Cada endpoint
@@ -7119,7 +7118,7 @@ ETAPA 4: Auth (90 min - se aplicável)
 🎯 GUIA PARA CLI:
 
 ETAPA 1: CLI Structure (45 min)
-```rust {.line-numbers}
+\```rust {.line-numbers}
 use clap::{Parser, Subcommand};
 
 #[derive(Parser)]
@@ -7135,7 +7134,7 @@ enum Commands {
     Complete { id: i32 },
     Delete { id: i32 },
 }
-```
+\```
 
 ETAPA 2: Commands (120 min)
 - Implementar cada command
@@ -7151,7 +7150,7 @@ ETAPA 3: Interactive Mode (60 min)
 💡 EXEMPLO COMPLETO:
 
 REST Handler:
-```rust {.line-numbers}
+\```rust {.line-numbers}
 async fn create_task(
     State(service): State<Arc<TaskService>>,
     Json(data): Json<CreateTaskRequest>,
@@ -7159,16 +7158,16 @@ async fn create_task(
     let task = service.create_task(data.into()).await?;
     Ok(Json(task.into()))
 }
-```
+\```
 
 CLI Command:
-```rust {.line-numbers}
+\```rust {.line-numbers}
 async fn handle_add(title: String, service: &TaskService) -> Result<()> {
     let task = service.create_task(CreateTask { title, description: None }).await?;
     println!("✓ Task created: {} (id: {})", task.title, task.id);
     Ok(())
 }
-```
+\```
 
 DIAGRAMAS MERMAID:
 1. API routes structure
@@ -7279,7 +7278,7 @@ ETAPA 4: Quality (45 min)
 💡 EXEMPLOS:
 
 Unit Test:
-```rust {.line-numbers}
+\```rust {.line-numbers}
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -7299,10 +7298,10 @@ mod tests {
         assert!(valid.validate().is_ok());
     }
 }
-```
+\```
 
 Integration Test:
-```rust {.line-numbers}
+\```rust {.line-numbers}
 #[sqlx::test]
 async fn test_create_and_fetch_task(pool: PgPool) -> sqlx::Result<()> {
     let service = TaskService::new(pool);
@@ -7318,10 +7317,10 @@ async fn test_create_and_fetch_task(pool: PgPool) -> sqlx::Result<()> {
     
     Ok(())
 }
-```
+\```
 
 E2E Test (API):
-```rust {.line-numbers}
+\```rust {.line-numbers}
 #[tokio::test]
 async fn test_complete_task_flow() {
     let app = spawn_app().await;
@@ -7344,7 +7343,7 @@ async fn test_complete_task_flow() {
     let task: Task = response.json().await;
     assert!(task.completed);
 }
-```
+\```
 
 DIAGRAMAS MERMAID:
 1. Test pyramid
@@ -7361,7 +7360,7 @@ DIAGRAMAS MERMAID:
 - [ ] Docs atualizadas
 
 COMANDOS ÚTEIS:
-```bash
+\```bash
 # Run all tests
 cargo test
 
@@ -7376,7 +7375,7 @@ cargo fmt --all
 
 # Audit
 cargo audit
-```
+\```
 
 IMPORTANTE:
 - Testing dá confiança
@@ -7450,7 +7449,7 @@ ESTRUTURA PEDAGÓGICA:
 
 🎯 TEMPLATE README:
 
-```markdown
+\```markdown
 # Project Name
 
 > One-line description
@@ -7470,30 +7469,30 @@ ESTRUTURA PEDAGÓGICA:
 
 ## Installation
 
-```bash
+\```bash
 git clone ...
 cd project
 cargo build --release
-```
+\```
 
 ## Quick Start
 
-```bash
+\```bash
 # Example usage
 ./target/release/app --help
-```
+\```
 
 ## Configuration
 
-```env
+\```env
 DATABASE_URL=postgres://...
 JWT_SECRET=...
-```
+\```
 
 ## API Reference
 
 ### Create Task
-```http
+\```http
 POST /tasks
 Content-Type: application/json
 
@@ -7501,17 +7500,17 @@ Content-Type: application/json
   "title": "Task title",
   "description": "Optional description"
 }
-```
+\```
 
 ## Development
 
-```bash
+\```bash
 # Run tests
 cargo test
 
 # Run with hot reload
 cargo watch -x run
-```
+\```
 
 ## Deployment
 
@@ -7527,7 +7526,7 @@ MIT © Your Name
 
 💡 DOC COMMENTS:
 
-```rust {.line-numbers}
+\```rust {.line-numbers}
 /// Creates a new task in the database.
 ///
 /// # Arguments
@@ -7554,7 +7553,7 @@ MIT © Your Name
 pub async fn create_task(&self, data: CreateTask) -> Result<Task> {
     // implementation
 }
-```
+\```
 
 ETAPAS:
 
@@ -7600,7 +7599,7 @@ DIAGRAMAS MERMAID:
 - [ ] Screenshots atualizados
 
 COMANDOS:
-```bash
+\```bash
 # Generate docs
 cargo doc --open
 
@@ -7612,7 +7611,7 @@ typos
 
 # Check links
 cargo-deadlinks
-```
+\```
 
 IMPORTANTE:
 - Documentação é essencial
@@ -7721,7 +7720,7 @@ DEPLOYMENT:
 💡 DOCKER EXAMPLE:
 
 Dockerfile:
-```dockerfile
+\```dockerfile
 FROM rust:1.75 as builder
 WORKDIR /app
 COPY . .
@@ -7731,10 +7730,10 @@ FROM debian:bookworm-slim
 RUN apt-get update && apt-get install -y libpq5 ca-certificates
 COPY --from=builder /app/target/release/app /usr/local/bin/app
 CMD ["app"]
-```
+\```
 
 docker-compose.yml:
-```yaml
+\```yaml
 version: '3.8'
 services:
   app:
@@ -7756,6 +7755,8 @@ services:
 
 volumes:
   postgres_data:
+\```
+
 ```
 
 🎉 RETROSPECTIVA DOS 60 DIAS:
