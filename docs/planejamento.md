@@ -6498,7 +6498,7 @@ REQUISITOS TÉCNICOS:
 - Progress bar (indicatif)
 
 ESTRUTURA:
-\```
+```
 web_scraper/
 ├── Cargo.toml
 ├── README.md
@@ -6512,7 +6512,7 @@ web_scraper/
 │   └── error.rs
 └── tests/
     └── integration_tests.rs
-\```
+```
 
 DIAGRAMAS MERMAID OBRIGATÓRIOS:
 1. Arquitetura geral do sistema
@@ -6522,9 +6522,9 @@ DIAGRAMAS MERMAID OBRIGATÓRIOS:
 5. Error handling flow
 
 EXEMPLO DE USO:
-\```bash
+```bash
 cargo run -- --urls urls.txt --max-concurrent 10 --output results.json
-\```
+```
 
 🏗️ GUIA DE IMPLEMENTAÇÃO:
 
@@ -6572,7 +6572,7 @@ ETAPA 8: Testing (30 min)
 💡 CÓDIGO INICIAL:
 
 Cargo.toml:
-\```toml
+```toml
 [package]
 name = "web_scraper"
 version = "0.1.0"
@@ -6587,7 +6587,7 @@ anyhow = "1"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 indicatif = "0.17"
-\```
+```
 
 🎯 EXERCÍCIO COMPLETO COM SUPORTE:
 - Especificação detalhada
@@ -6753,7 +6753,7 @@ PARA CADA OPÇÃO, FORNECER:
    - Autenticação
 
 7. ESTRUTURA DE CÓDIGO
-\```
+```
 project/
 ├── Cargo.toml
 ├── README.md
@@ -6769,7 +6769,7 @@ project/
 │   └── error.rs
 ├── tests/
 └── docs/
-\```
+```
 
 DIAGRAMAS MERMAID OBRIGATÓRIOS (mínimo 6):
 1. Arquitetura geral (componentes)
@@ -6935,7 +6935,7 @@ ETAPA 6: Error Handling (45 min)
 💡 CÓDIGO DE EXEMPLO:
 
 Models:
-\```rust {.line-numbers}
+```rust {.line-numbers}
 use serde::{Deserialize, Serialize};
 use sqlx::FromRow;
 
@@ -6966,10 +6966,10 @@ impl CreateTask {
         Ok(())
     }
 }
-\```
+```
 
 Services:
-\```rust {.line-numbers}
+```rust {.line-numbers}
 pub struct TaskService {
     pool: PgPool,
 }
@@ -7920,7 +7920,6 @@ A comunidade Rust é conhecida por ser acolhedora e prestativa. Você agora faz 
 **De iniciante a desenvolvedor em 60 dias. Sua jornada. Sua conquista. Seu futuro.** 🦀✨
 
 Formato: celebração, retrospectiva completa, próximos passos claros.
-```
 
 ---
 
