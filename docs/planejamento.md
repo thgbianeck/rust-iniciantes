@@ -5772,11 +5772,11 @@ VISUALIZAÇÕES:
 
 SETUP:
 Cargo.toml:
-```toml
+\```toml
 [dependencies]
 tokio = { version = "1", features = ["full"] }
 reqwest = { version = "0.11", features = ["json"] }
-```
+\```
 
 💡 DEMONSTRAÇÃO E MODELAGEM:
 - async fn simples
