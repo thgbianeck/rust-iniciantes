@@ -1,0 +1,83 @@
+Sou INICIANTE em programação aprendendo Rust. Dia 6: Structs.
+
+Material sobre Structs usando DESIGN INSTRUCIONAL:
+
+CONTEÚDO TÉCNICO:
+1. Definição: struct Nome { campo: tipo }
+2. Instanciação e field init shorthand
+3. impl: métodos de instância (&self, &mut self, self)
+4. Funções associadas (similar a static - comparar)
+5. Tuple structs e Unit structs
+6. Destruturaçãoo
+
+ESTRUTURA BASEADA EM DESIGN INSTRUCIONAL:
+
+📋 OBJETIVOS DE APRENDIZAGEM:
+- Objetivos sobre modelagem de dados
+- Foco em organização de informação
+
+🎭 ATIVAÇÃO DO CONHECIMENTO PRÉVIO:
+- Revisão de tipos compostos
+- Analogia: "Blocos de Construção" - criar tipos personalizados como LEGOs
+- História sobre organização de dados relacionados
+
+📚 APRESENTAÇÃO DO CONTEÚDO:
+- DIAGRAMAS MERMAID OBRIGATÓRIOS:
+  * Diagrama de classes UML de structs
+  * Diagrama de objetos (instâncias)
+  * Diagrama mostrando struct + impl
+  * Fluxograma de criação e uso
+  * Comparação: dados soltos vs struct
+- Exemplos visuais de instanciação
+- Padrões de design com structs
+
+💡 DEMONSTRAÇÃO E MODELAGEM:
+- Evolução: múltiplas variáveis → struct
+- Métodos vs funções associadas
+- self, &self, &mut self explicados
+
+🎯 PRÁTICA GUIADA (1 EXERCÍCIO COMPLETO):
+- Exercício: Sistema de Gerenciamento de Usuários
+  * Struct Usuario com campos relevantes
+  * Métodos: criar, validar, atualizar, exibir
+  * Funções associadas: new, from_string
+  * Lista de usuários
+  * Operações CRUD básicas
+  * Contexto realista
+  * Modelagem progressiva
+  * Código modular
+  * Solução completa
+  * Extensões opcionais (busca, filtros)
+
+🔄 FEEDBACK E AVALIAÇÃO:
+- Checklist de conceitos
+- Erros comuns com self
+- Quiz sobre métodos
+- Auto-avaliação
+
+🚀 TRANSFERÊNCIA E APLICAÇÃO:
+- Desafio: Sistema de produtos
+- Preparação para Dia 7
+- Recursos complementares
+
+TÉCNICAS PEDAGÓGICAS:
+- Analogia de LEGO/blocos
+- Modelagem visual (UML)
+- Comparação antes/depois
+- Progressão incremental
+- Design thinking
+
+DIAGRAMAS MERMAID OBRIGATÓRIOS (mínimo 4):
+1. Diagrama de classes da struct
+2. Diagrama de objetos (instâncias)
+3. Relação struct-impl
+4. Arquitetura do sistema
+
+IMPORTANTE:
+- Ênfase em self e suas variações
+- Rust não tem herança (preparar mentalidade)
+- Composição sobre herança
+- Tom profissional
+- Mostrar valor da organização
+
+Formato: markdown estruturado, UML claro, exemplos práticos.

@@ -1,0 +1,88 @@
+Sou INICIANTE em programação estudando Rust. Dia 7: Enums.
+
+Material sobre Enums (MUITO mais poderosos que outras linguagens) com DESIGN INSTRUCIONAL:
+
+CONTEÚDO TÉCNICO:
+1. Enums básicos: enum Nome { Variante1, Variante2 }
+2. Enums com dados: enum Msg { Text(String), Number(i32) }
+3. Option<T>: Some(valor) e None (sem null!)
+4. Result<T, E>: Ok(valor) e Err(erro)
+5. Pattern matching avançado com match
+6. if let e while let
+
+ESTRUTURA BASEADA EM DESIGN INSTRUCIONAL:
+
+📋 OBJETIVOS DE APRENDIZAGEM:
+- Objetivos sobre tipos algébricos
+- Foco em segurança de tipos
+
+🎭 ATIVAÇÃO DO CONHECIMENTO PRÉVIO:
+- Revisão de structs e match
+- Analogia: "Árvore de Decisões" - múltiplos caminhos possíveis
+- História sobre estados e transformações
+
+📚 APRESENTAÇÃO DO CONTEÚDO:
+- DIAGRAMAS MERMAID OBRIGATÓRIOS:
+  * Diagrama de estados (state machine)
+  * Árvore de decisão com match
+  * Diagrama de classes UML de enums
+  * Fluxo Option<T> vs null tradicional
+  * Fluxo Result<T, E> para tratamento de erros
+  * Comparação: enums simples vs enums com dados
+- Exemplos visuais de cada variante
+- Tabela comparativa Option vs null
+
+💡 DEMONSTRAÇÃO E MODELAGEM:
+- Enums revolucionários do Rust
+- Option elimina null
+- Result sem exceptions
+- Match exaustivo
+
+🎯 PRÁTICA GUIADA (1 EXERCÍCIO COMPLETO):
+- Exercício: Máquina de Estados - Sistema de Pedidos
+  * Estados: Pendente, Processando, Enviado, Entregue, Cancelado
+  * Transições válidas
+  * Dados em cada estado
+  * Usar Option e Result
+  * Match para processar estados
+  * Validações
+  * Contexto e-commerce
+  * Modelagem de estados
+  * Código completo
+  * Solução detalhada
+  * Extensões (histórico, notificações)
+
+🔄 FEEDBACK E AVALIAÇÃO:
+- Checklist de conceitos
+- Erros comuns com match
+- Quiz sobre Option/Result
+- Auto-avaliação
+
+🚀 TRANSFERÊNCIA E APLICAÇÃO:
+- Desafio: Sistema de autenticação
+- Preparação para Dia 8
+- Recursos extras
+
+TÉCNICAS PEDAGÓGICAS:
+- Diagrama de estados
+- Árvore de decisão
+- Comparação com outras linguagens
+- Segurança de tipos visualizada
+- Aprendizagem baseada em erros
+
+DIAGRAMAS MERMAID OBRIGATÓRIOS (mínimo 5):
+1. Diagrama de estados do sistema
+2. Árvore de decisão match
+3. Fluxograma Option
+4. Fluxograma Result
+5. UML do enum com dados
+
+IMPORTANTE:
+- Enums Rust são únicos - enfatizar poder
+- Option vs null é paradigma shift
+- Result vs exceptions
+- Match exaustivo é segurança
+- Tom de descoberta
+- Não exagere no uso de emojis
+
+Formato: markdown estruturado, diagramas de estados claros, exemplos poderosos.
