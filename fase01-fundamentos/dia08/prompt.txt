@@ -1,0 +1,87 @@
+Sou INICIANTE em programação aprendendo Rust. Dia 8: Vectors.
+
+Material sobre Vec<T> com DESIGN INSTRUCIONAL:
+
+CONTEÚDO TÉCNICO:
+1. Criação: Vec::new(), vec![], Vec::with_capacity()
+2. Manipulação: push, pop, insert, remove, clear
+3. Acesso: get() vs indexação direta (segurança)
+4. Iteração: for, iter(), iter_mut(), into_iter()
+5. Slices: &vec[inicio..fim]
+6. Capacidade vs comprimento (performance)
+
+ESTRUTURA BASEADA EM DESIGN INSTRUCIONAL:
+
+📋 OBJETIVOS DE APRENDIZAGEM:
+- Objetivos sobre coleções dinâmicas
+- Foco em manipulação de listas
+
+🎭 ATIVAÇÃO DO CONHECIMENTO PRÉVIO:
+- Revisão de arrays
+- Analogia: "Estante Dinâmica" - cresce conforme necessidade
+- História sobre listas flexíveis vs fixas
+
+📚 APRESENTAÇÃO DO CONTEÚDO:
+- DIAGRAMAS MERMAID OBRIGATÓRIOS:
+  * Diagrama de memória: Vec crescendo
+  * Fluxograma de operações CRUD
+  * Diagrama de iteração (3 formas)
+  * Comparação visual: array vs Vec
+  * Diagrama de slices
+- Tabela de métodos principais
+- Visualização de capacidade
+
+💡 DEMONSTRAÇÃO E MODELAGEM:
+- Operações passo a passo
+- get() seguro vs [] panic
+- Padrões de iteração
+- Quando usar cada forma
+
+🎯 PRÁTICA GUIADA (1 EXERCÍCIO COMPLETO):
+- Exercício: Sistema de Gerenciamento de Tarefas (Todo List)
+  * Adicionar tarefas
+  * Remover tarefas
+  * Marcar como completo
+  * Listar todas/pendentes/completas
+  * Buscar tarefa
+  * Estatísticas
+  * Usar Vec<Tarefa>
+  * Struct Tarefa com enum Status
+  * Menu interativo
+  * Contexto produtividade
+  * Código modular
+  * Solução completa
+  * Extensões (prioridades, datas)
+
+🔄 FEEDBACK E AVALIAÇÃO:
+- Checklist de operações
+- Erros comuns (índices, ownership)
+- Quiz sobre iteradores
+- Auto-avaliação
+
+🚀 TRANSFERÊNCIA E APLICAÇÃO:
+- Desafio: Gerenciador de contatos
+- Preparação para Dia 9
+- Recursos complementares
+
+TÉCNICAS PEDAGÓGICAS:
+- Analogia de estante/lista
+- Visualização de memória
+- Comparação sistemática
+- Padrões de uso comum
+- Troubleshooting guiado
+
+DIAGRAMAS MERMAID OBRIGATÓRIOS (mínimo 4):
+1. Memória: Vec crescendo dinamicamente
+2. Fluxograma CRUD completo
+3. Três formas de iteração
+4. Arquitetura da aplicação
+
+IMPORTANTE:
+- get() vs [] - segurança primeiro
+- Ownership em iteradores (preparação)
+- Performance: capacidade
+- Tom prático
+- Aplicação do mundo real
+
+Formato: markdown estruturado, diagramas de memória, exemplo prático completo.
