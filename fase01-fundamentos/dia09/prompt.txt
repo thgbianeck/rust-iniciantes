@@ -1,0 +1,87 @@
+Sou INICIANTE em programação estudando Rust. Dia 9: HashMaps.
+
+Material sobre HashMap<K, V> com DESIGN INSTRUCIONAL:
+
+CONTEÚDO TÉCNICO:
+1. Criação: HashMap::new()
+2. Operações: insert, get, remove, contains_key
+3. Entry API: entry().or_insert(), or_insert_with()
+4. Iteração: keys(), values(), iter()
+5. Atualização de valores existentes
+6. HashMap com tipos complexos
+
+ESTRUTURA BASEADA EM DESIGN INSTRUCIONAL:
+
+📋 OBJETIVOS DE APRENDIZAGEM:
+- Objetivos sobre busca e mapeamento
+- Foco em associação chave-valor
+
+🎭 ATIVAÇÃO DO CONHECIMENTO PRÉVIO:
+- Revisão de Vec
+- Analogia: "Dicionário Inteligente" - busca rápida por chave
+- História sobre organização e acesso eficiente
+
+📚 APRESENTAÇÃO DO CONTEÚDO:
+- DIAGRAMAS MERMAID OBRIGATÓRIOS:
+  * Diagrama de estrutura HashMap
+  * Fluxograma de operações
+  * Diagrama Entry API (decisão)
+  * Comparação: Vec vs HashMap (quando usar)
+  * Visualização de hash e buckets (simplificado)
+- Tabela de métodos principais
+- Exemplos de casos de uso
+
+💡 DEMONSTRAÇÃO E MODELAGEM:
+- Padrões comuns de uso
+- Entry API idiomática
+- Iteração sobre pares
+- Contadores e agregações
+
+🎯 PRÁTICA GUIADA (1 EXERCÍCIO COMPLETO):
+- Exercício: Sistema de Gerenciamento de Estoque
+  * Produtos com código único
+  * Adicionar/remover produtos
+  * Atualizar quantidade
+  * Buscar por código
+  * Listar estoque
+  * Produtos em falta
+  * Valor total do estoque
+  * HashMap<String, Produto>
+  * Entry API para atualizações
+  * Contexto comercial
+  * Código bem organizado
+  * Solução completa
+  * Extensões (categorias, alertas)
+
+🔄 FEEDBACK E AVALIAÇÃO:
+- Checklist de operações
+- Erros comuns (chaves, Option)
+- Quiz sobre Entry API
+- Auto-avaliação
+
+🚀 TRANSFERÊNCIA E APLICAÇÃO:
+- Desafio: Contador de palavras
+- Preparação para Dia 10
+- Recursos extras
+
+TÉCNICAS PEDAGÓGICAS:
+- Analogia de dicionário
+- Comparação Vec vs HashMap
+- Padrões idiomáticos
+- Casos de uso reais
+- Problem-solving
+
+DIAGRAMAS MERMAID OBRIGATÓRIOS (mínimo 4):
+1. Estrutura HashMap (conceitual)
+2. Fluxograma Entry API
+3. Comparação Vec vs HashMap
+4. Arquitetura do sistema de estoque
+
+IMPORTANTE:
+- Option em get() - segurança
+- Entry API é idiomática
+- Quando HashMap é melhor que Vec
+- Tom profissional
+- Aplicação prática
+
+Formato: markdown estruturado, diagramas conceituais, exemplo robusto.
