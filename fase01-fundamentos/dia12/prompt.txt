@@ -1,0 +1,87 @@
+Sou INICIANTE em programação estudando Rust. Dia 12: Testes.
+
+Material sobre testing com DESIGN INSTRUCIONAL:
+
+CONTEÚDO TÉCNICO:
+1. Testes unitários: #[test]
+2. Módulo de testes: #[cfg(test)]
+3. Assertions: assert!, assert_eq!, assert_ne!
+4. #[should_panic] para testes de panic
+5. Testes de integração: tests/
+6. cargo test: rodar, filtrar, mostrar output
+7. TDD básico (Test-Driven Development)
+
+ESTRUTURA BASEADA EM DESIGN INSTRUCIONAL:
+
+📋 OBJETIVOS DE APRENDIZAGEM:
+- Objetivos sobre qualidade de código
+- Foco em confiança e manutenção
+
+🎭 ATIVAÇÃO DO CONHECIMENTO PRÉVIO:
+- Revisão de funções e módulos
+- Analogia: "Laboratório de Qualidade" - testar antes de lançar
+- História sobre bugs evitados por testes
+
+📚 APRESENTAÇÃO DO CONTEÚDO:
+- DIAGRAMAS MERMAID OBRIGATÓRIOS:
+  * Fluxograma TDD (red-green-refactor)
+  * Pirâmide de testes
+  * Estrutura de projeto com testes
+  * Fluxo de execução de cargo test
+  * Diagrama: unitários vs integração
+- Exemplos de bons e maus testes
+- Padrões de nomenclatura
+
+💡 DEMONSTRAÇÃO E MODELAGEM:
+- TDD na prática
+- Anatomia de um bom teste
+- Arrange-Act-Assert pattern
+- Edge cases e testes negativos
+
+🎯 PRÁTICA GUIADA (1 EXERCÍCIO COMPLETO):
+- Exercício: Suite de Testes para Validador
+  * Testar validações do Dia 10
+  * Testes unitários para cada função
+  * Testes de casos válidos
+  * Testes de casos inválidos
+  * Testes de edge cases
+  * should_panic quando apropriado
+  * Organizar em módulo tests
+  * Cobertura completa
+  * Contexto: confiabilidade
+  * TDD opcional
+  * Solução com ~15-20 testes
+  * Extensões (benchmarks, doc tests)
+
+🔄 FEEDBACK E AVALIAÇÃO:
+- Checklist de boas práticas
+- Erros comuns em testes
+- Quiz sobre assertions
+- Auto-avaliação
+
+🚀 TRANSFERÊNCIA E APLICAÇÃO:
+- Desafio: Testar projeto do Dia 11
+- Preparação para Dia 13
+- Recursos complementares
+
+TÉCNICAS PEDAGÓGICAS:
+- Analogia de laboratório
+- TDD como metodologia
+- Segurança através de testes
+- Documentação viva
+- Regression prevention
+
+DIAGRAMAS MERMAID OBRIGATÓRIOS (mínimo 4):
+1. Ciclo TDD
+2. Pirâmide de testes
+3. Estrutura do projeto
+4. Fluxo cargo test
+
+IMPORTANTE:
+- Testes dão confiança
+- Começar simples
+- Edge cases são importantes
+- Tom de qualidade profissional
+- Testes como documentação
+
+Formato: markdown estruturado, exemplos de testes, prática TDD.

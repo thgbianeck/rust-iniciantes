@@ -1,0 +1,150 @@
+Sou INICIANTE em programação finalizando Fase 1 de Rust. Dia 14: Projeto Integrador.
+
+Especificação completa para projeto CLI usando DESIGN INSTRUCIONAL:
+
+OBJETIVO DO PROJETO:
+Criar aplicação CLI completa integrando TODOS os conceitos dos dias 1-13.
+
+ESCOLHA DE DOMÍNIO (sugestões):
+1. Gerenciador de Tarefas (Todo List avançado)
+2. Gerenciador de Finanças Pessoais
+3. Catálogo de Livros/Filmes
+4. Sistema de Notas de Estudos
+
+ESTRUTURA BASEADA EM DESIGN INSTRUCIONAL:
+
+📋 OBJETIVOS DE APRENDIZAGEM:
+- Integrar todos conceitos da Fase 1
+- Criar software completo e funcional
+- Praticar organização de projetos
+
+🎭 MOTIVAÇÃO E CONTEXTO:
+- Revisão dos 13 dias anteriores
+- Analogia: "Construir a Casa Completa" - usar todas as ferramentas
+- História sobre projeto real do início ao fim
+
+📚 ESPECIFICAÇÃO DO PROJETO:
+
+REQUISITOS FUNCIONAIS:
+1. Interface CLI interativa
+2. Operações CRUD completas
+3. Persistência em arquivo (JSON)
+4. Validação de dados
+5. Tratamento robusto de erros
+6. Menu de navegação
+7. Comandos úteis
+
+REQUISITOS TÉCNICOS:
+- Organização em módulos (models, services, storage, ui)
+- Structs e enums apropriados
+- Uso de Vec e HashMap
+- Iteradores para processamento
+- Tratamento de erros com Result
+- Testes unitários e integração
+- Documentação inline
+- README com instruções
+
+DIAGRAMAS MERMAID OBRIGATÓRIOS:
+1. Arquitetura geral do sistema (componentes)
+2. Diagrama de classes (UML)
+3. Fluxograma de navegação do menu
+4. Diagrama de sequência (operação completa)
+5. Estrutura de diretórios
+6. Diagrama de estados (se aplicável)
+
+🏗️ GUIA DE IMPLEMENTAÇÃO (SCAFFOLDING):
+
+ETAPA 1: Planejamento (30 min)
+- Escolher domínio
+- Definir funcionalidades
+- Desenhar modelos de dados
+- Planejar módulos
+
+ETAPA 2: Setup (20 min)
+- Criar projeto e estrutura
+- Definir Cargo.toml
+- Criar módulos vazios
+- Configurar testes
+
+ETAPA 3: Models (40 min)
+- Criar structs principais
+- Implementar enums
+- Métodos básicos
+- Testes de models
+
+ETAPA 4: Storage (30 min)
+- Módulo de persistência
+- Salvar/carregar JSON
+- Tratamento de erros
+- Testes de storage
+
+ETAPA 5: Services (50 min)
+- Lógica de negócio
+- Operações CRUD
+- Validações
+- Testes de services
+
+ETAPA 6: UI (40 min)
+- Menu interativo
+- Input do usuário
+- Formatação de saída
+- Navegação
+
+ETAPA 7: Integration (30 min)
+- Integrar todos módulos
+- Main.rs coordenador
+- Testes de integração
+- Debugging
+
+ETAPA 8: Polish (20 min)
+- Documentação
+- README
+- Refatoração
+- Melhorias finais
+
+💡 CÓDIGO INICIAL (TEMPLATE):
+
+Fornecer estrutura básica:
+- Cargo.toml configurado
+- Estrutura de diretórios
+- Módulos com TODOs
+- Testes esqueleto
+- README template
+
+🎯 EXERCÍCIO COMPLETO COM SUPORTE:
+- Especificação detalhada
+- Diagramas completos
+- Código esqueleto
+- Checkpoints por etapa
+- Dicas progressivas
+- Solução de referência
+- Debugging comum
+- Extensões opcionais
+
+🔄 FEEDBACK E AVALIAÇÃO:
+- Checklist de funcionalidades
+- Critérios de qualidade
+- Auto-avaliação por módulo
+- Retrospectiva da Fase 1
+
+🚀 CONCLUSÃO DA FASE 1:
+- Celebração das conquistas
+- Resumo dos 14 dias
+- Preparação para Fase 2 (Ownership)
+- Recursos para revisão
+
+TÉCNICAS PEDAGÓGICAS:
+- Projeto baseado em problemas
+- Scaffolding extensivo
+- Aprendizagem progressiva
+- Integração de conhecimentos
+- Senso de realização
+
+IMPORTANTE:
+- Projeto realista mas alcançável
+- Suporte em cada etapa
+- Código de referência completo
+- Tom motivador e celebratório
+- Preparar confiança para Fase 2
+
+Formato: markdown estruturado, guia passo a passo detalhado, diagramas completos, código template.

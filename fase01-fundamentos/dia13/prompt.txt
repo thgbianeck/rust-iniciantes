@@ -1,0 +1,86 @@
+Sou INICIANTE em programação estudando Rust. Dia 13: Iteradores.
+
+Material sobre iteradores (programação funcional) com DESIGN INSTRUCIONAL:
+
+CONTEÚDO TÉCNICO:
+1. iter() vs iter_mut() vs into_iter() (diferenças cruciais)
+2. Métodos adaptadores: map, filter, take, skip
+3. Métodos consumidores: collect, fold, for_each
+4. Lazy evaluation (não executa até consumir)
+5. Chains: filter().map().collect()
+6. Performance: zero-cost abstractions
+
+ESTRUTURA BASEADA EM DESIGN INSTRUCIONAL:
+
+📋 OBJETIVOS DE APRENDIZAGEM:
+- Objetivos sobre programação funcional
+- Foco em transformações de dados
+
+🎭 ATIVAÇÃO DO CONHECIMENTO PRÉVIO:
+- Revisão de loops e Vec
+- Analogia: "Linha de Produção" - transformações em sequência
+- História sobre processamento eficiente
+
+📚 APRESENTAÇÃO DO CONTEÚDO:
+- DIAGRAMAS MERMAID OBRIGATÓRIOS:
+  * Fluxograma de pipeline de iteradores
+  * Diagrama de sequência: lazy evaluation
+  * Comparação: imperativo vs funcional
+  * Árvore de métodos de iteradores
+  * Fluxo de dados através de chain
+- Tabela de métodos principais
+- Exemplos visuais de transformações
+
+💡 DEMONSTRAÇÃO E MODELAGEM:
+- Comparação: for loop vs iteradores
+- Composição de operações
+- Lazy evaluation na prática
+- Elegância funcional
+
+🎯 PRÁTICA GUIADA (1 EXERCÍCIO COMPLETO):
+- Exercício: Pipeline de Processamento de Dados
+  * Ler lista de transações financeiras
+  * Filtrar por categoria
+  * Transformar valores (câmbio, taxas)
+  * Agrupar por período
+  * Calcular estatísticas
+  * Usar map, filter, fold
+  * Chain múltiplas operações
+  * Comparar com versão imperativa
+  * Contexto: análise financeira
+  * Código elegante
+  * Solução funcional
+  * Extensões (performance, lazy)
+
+🔄 FEEDBACK E AVALIAÇÃO:
+- Checklist de conceitos
+- Erros comuns (ownership)
+- Quiz sobre lazy evaluation
+- Auto-avaliação
+
+🚀 TRANSFERÊNCIA E APLICAÇÃO:
+- Desafio: Análise de texto
+- Preparação para Dia 14
+- Recursos extras
+
+TÉCNICAS PEDAGÓGICAS:
+- Analogia de linha de produção
+- Comparação paradigmas
+- Visualização de fluxo
+- Programação funcional
+- Elegância e expressividade
+
+DIAGRAMAS MERMAID OBRIGATÓRIOS (mínimo 4):
+1. Pipeline de transformações
+2. Lazy evaluation
+3. Imperativo vs funcional
+4. Fluxo do exercício
+
+IMPORTANTE:
+- Iteradores são zero-cost
+- Lazy é eficiente
+- Ownership em into_iter
+- Tom de elegância
+- Preparar para padrões avançados
+
+Formato: markdown estruturado, comparações visuais, exemplo funcional.

@@ -1,0 +1,85 @@
+Sou INICIANTE em programação estudando Rust. Dia 11: Módulos.
+
+Material sobre organização de código com DESIGN INSTRUCIONAL:
+
+CONTEÚDO TÉCNICO:
+1. Módulos: mod nome { }
+2. Visibilidade: pub vs privado (padrão)
+3. use para importar
+4. Paths: crate, super, self
+5. Arquivos separados: mod.rs vs nome.rs
+6. Estrutura src/lib.rs vs src/main.rs
+
+ESTRUTURA BASEADA EM DESIGN INSTRUCIONAL:
+
+📋 OBJETIVOS DE APRENDIZAGEM:
+- Objetivos sobre arquitetura
+- Foco em código escalável
+
+🎭 ATIVAÇÃO DO CONHECIMENTO PRÉVIO:
+- Revisão de projetos anteriores
+- Analogia: "Arquitetura do Projeto" - organizar em cômodos e andares
+- História sobre crescimento de projetos
+
+📚 APRESENTAÇÃO DO CONTEÚDO:
+- DIAGRAMAS MERMAID OBRIGATÓRIOS:
+  * Árvore de módulos do projeto
+  * Diagrama de pacotes/crates
+  * Fluxograma de visibilidade (pub)
+  * Estrutura de diretórios
+  * Paths e imports (crate, super, self)
+- Exemplos de organização
+- Padrões de arquitetura
+
+💡 DEMONSTRAÇÃO E MODELAGEM:
+- Evolução: tudo em main.rs → modular
+- Separação de responsabilidades
+- Convenções de nomenclatura
+- Re-exports quando útil
+
+🎯 PRÁTICA GUIADA (1 EXERCÍCIO COMPLETO):
+- Exercício: Refatorar Sistema de Gerenciamento
+  * Pegar código do Dia 8 ou 9
+  * Separar em módulos: models, services, ui
+  * Usar arquivos separados
+  * Visibilidade apropriada
+  * Paths limpos com use
+  * Documentação de módulos
+  * Estrutura escalável
+  * Contexto: projeto crescendo
+  * Antes e depois
+  * Solução organizada
+  * Extensões (testes por módulo)
+
+🔄 FEEDBACK E AVALIAÇÃO:
+- Checklist de organização
+- Erros comuns (visibilidade, paths)
+- Quiz sobre módulos
+- Auto-avaliação
+
+🚀 TRANSFERÊNCIA E APLICAÇÃO:
+- Desafio: Organizar projeto pessoal
+- Preparação para Dia 12
+- Recursos extras
+
+TÉCNICAS PEDAGÓGICAS:
+- Analogia de arquitetura/casa
+- Refatoração guiada
+- Antes/depois visual
+- Princípios SOLID (adaptados)
+- Separation of concerns
+
+DIAGRAMAS MERMAID OBRIGATÓRIOS (mínimo 4):
+1. Árvore de módulos
+2. Estrutura de diretórios
+3. Diagrama de pacotes
+4. Fluxo de visibilidade
+
+IMPORTANTE:
+- Organização desde cedo
+- Não esperar código crescer demais
+- Convenções Rust
+- Tom profissional
+- Preparar para projetos reais
+
+Formato: markdown estruturado, diagramas arquiteturais, refatoração prática.
