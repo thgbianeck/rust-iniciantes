@@ -1,0 +1,86 @@
+Sou INICIANTE em programação estudando Rust. Dia 10: Error Handling.
+
+Material sobre tratamento de erros (SEM exceptions!) com DESIGN INSTRUCIONAL:
+
+CONTEÚDO TÉCNICO:
+1. panic! vs Result<T, E> (irrecuperável vs recuperável)
+2. unwrap(), expect() - quando usar
+3. Operador ?: propagação automática elegante
+4. match vs if let para Result
+5. Criar tipos de erro customizados
+6. From trait para conversão de erros
+
+ESTRUTURA BASEADA EM DESIGN INSTRUCIONAL:
+
+📋 OBJETIVOS DE APRENDIZAGEM:
+- Objetivos sobre tratamento de erros
+- Foco em código robusto
+
+🎭 ATIVAÇÃO DO CONHECIMENTO PRÉVIO:
+- Revisão de Result e Option
+- Analogia: "Sistema de Segurança" - prevenção e tratamento
+- História sobre software robusto
+
+📚 APRESENTAÇÃO DO CONTEÚDO:
+- DIAGRAMAS MERMAID OBRIGATÓRIOS:
+  * Árvore de decisão: panic vs Result
+  * Fluxograma de propagação com ?
+  * Diagrama de sequência: erro sendo tratado
+  * Comparação: Rust errors vs exceptions
+  * Hierarquia de erros customizados
+- Tabela: quando usar cada abordagem
+- Exemplos de mensagens de erro úteis
+
+💡 DEMONSTRAÇÃO E MODELAGEM:
+- Evolução de tratamento de erros
+- Operador ? na prática
+- Erros informativos
+- Padrões de recovery
+
+🎯 PRÁTICA GUIADA (1 EXERCÍCIO COMPLETO):
+- Exercício: Sistema de Validação Robusto
+  * Validar múltiplos campos (email, senha, CPF)
+  * Enum de erros customizado
+  * Mensagens de erro amigáveis
+  * Usar Result e ?
+  * Propagação de erros
+  * Recovery quando possível
+  * Logging de erros
+  * Contexto: formulário de cadastro
+  * Código defensivo
+  * Solução completa
+  * Extensões (múltiplos erros, sugestões)
+
+🔄 FEEDBACK E AVALIAÇÃO:
+- Checklist de boas práticas
+- Erros comuns (unwrap excessivo)
+- Quiz sobre propagação
+- Auto-avaliação
+
+🚀 TRANSFERÊNCIA E APLICAÇÃO:
+- Desafio: Parser com erros
+- Preparação para Dia 11
+- Recursos complementares
+
+TÉCNICAS PEDAGÓGICAS:
+- Analogia de sistema de segurança
+- Comparação com exceptions
+- Erros como valores
+- Defensive programming
+- User-friendly errors
+
+DIAGRAMAS MERMAID OBRIGATÓRIOS (mínimo 5):
+1. Árvore de decisão error handling
+2. Fluxo do operador ?
+3. Sequência de propagação
+4. Hierarquia de erros
+5. Comparação: Rust vs exceptions
+
+IMPORTANTE:
+- Erros são valores, não exceções
+- ? é idiomático e elegante
+- Mensagens úteis para usuários
+- Tom de confiabilidade
+- Preparar para produção
+
+Formato: markdown estruturado, diagramas de fluxo, exemplo robusto.
