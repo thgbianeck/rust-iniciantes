@@ -1,0 +1,6 @@
+[package]
+name = "conversor_celsiu_fahrenheit"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
