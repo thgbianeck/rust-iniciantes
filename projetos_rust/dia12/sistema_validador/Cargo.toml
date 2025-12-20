@@ -1,0 +1,14 @@
+[package]
+name = "sistema_validador"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[lib]
+name = "biblioteca"
+path = "src/lib.rs"
+
+[[bin]]
+name = "biblioteca"
+path = "src/main.rs"
