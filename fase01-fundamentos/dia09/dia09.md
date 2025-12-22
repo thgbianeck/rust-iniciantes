@@ -70,7 +70,7 @@ estoque.get("MOUSE-001") // Acesso direto!
 ### Diagrama 1: Estrutura Conceitual do HashMap
 
 ```mermaid
-graph TB
+graph LR
     subgraph HashMap["HashMap&lt;String, i32&gt;"]
         H[Hash Function]
         

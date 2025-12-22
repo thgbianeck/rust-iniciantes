@@ -1,0 +1,107 @@
+Sou INICIANTE em programação começando a Fase 2 de Rust. Dia 15: Fundamentos de Memória.
+
+Este é o dia MAIS IMPORTANTE do curso! Base para tudo em Rust.
+
+Crie material EXTREMAMENTE didático usando DESIGN INSTRUCIONAL sobre gerenciamento de memória:
+
+CONTEÚDO TÉCNICO:
+1. Stack: LIFO, tamanho fixo, rápido, automático
+2. Heap: dinâmico, alocação manual, mais lento
+3. Ponteiros e endereços de memória
+4. Gerenciamento automático de memória (GC em outras linguagens)
+5. Gerenciamento de memória em Rust (Ownership)
+6. Copy types vs Move types
+7. Drop automático
+
+ESTRUTURA BASEADA EM DESIGN INSTRUCIONAL:
+
+📋 OBJETIVOS DE APRENDIZAGEM:
+- Compreender diferença fundamental Stack vs Heap
+- Entender por que Rust é diferente
+- Visualizar memória mentalmente
+
+🎭 ATIVAÇÃO DO CONHECIMENTO PRÉVIO:
+- Conexão com Fase 1 (tipos, structs)
+- Analogia CENTRAL: "Edifício de Andares"
+  * Stack = Elevador (LIFO - último entra, primeiro sai)
+  * Heap = Estacionamento (espaços livres, precisa procurar)
+- História sobre gerenciamento de recursos
+
+📚 APRESENTAÇÃO DO CONTEÚDO:
+
+DIAGRAMAS MERMAID OBRIGATÓRIOS (mínimo 6):
+1. Arquitetura de memória (Stack e Heap lado a lado)
+2. Diagrama de sequência: alocação no Stack
+3. Diagrama de sequência: alocação no Heap
+4. Comparação visual: tipos Copy vs Move
+5. Fluxograma: onde cada tipo é armazenado
+6. Diagrama temporal: ciclo de vida de variável
+7. Mapa mental: conceitos de memória
+
+VISUALIZAÇÕES TEXTUAIS:
+- "Fotografias" de memória em momentos diferentes
+- Tabelas comparativas Stack vs Heap
+- Exemplos de código com anotações de memória
+
+COMPARAÇÕES COM LINGUAGENS CONHECIDAS:
+- Python/JavaScript: tudo é referência + GC
+- C: controle manual total
+- Rust: controle automático sem GC (melhor dos mundos)
+
+💡 DEMONSTRAÇÃO E MODELAGEM:
+- Exemplos progressivos
+- Código que compila vs não compila (POR QUÊ)
+- Visualização passo a passo
+- Analogias em cada conceito
+
+🎯 PRÁTICA GUIADA (1 EXERCÍCIO COMPLETO):
+- Exercício: Visualizador de Alocações de Memória
+  * Criar programa que demonstra alocações
+  * Tipos no Stack (i32, bool, etc)
+  * Tipos no Heap (String, Vec)
+  * Mostrar move semantics
+  * Comentários explicando CADA operação de memória
+  * Usar println! para "visualizar" memória
+  * Exercícios de previsão (o que acontece?)
+  * Contexto: entender internamente
+  * Código didático
+  * Solução comentada linha a linha
+  * Experimentos opcionais
+
+🔄 FEEDBACK E AVALIAÇÃO:
+- Checklist de conceitos cruciais
+- Perguntas reflexivas sobre memória
+- Quiz com diagramas
+- Auto-avaliação profunda
+
+🚀 TRANSFERÊNCIA E APLICAÇÃO:
+- Exercícios de visualização mental
+- Preparação para Ownership (Dia 16)
+- Analogias para fixar
+
+TÉCNICAS PEDAGÓGICAS:
+- Múltiplas analogias (elevador, estacionamento)
+- Visualização constante
+- Comparação sistemática
+- Exemplos concretos
+- Repetição espaçada
+- Chunking de informações complexas
+- Dual coding (texto + diagrama)
+
+⚠️ PONTOS CRÍTICOS:
+- Este conceito é DIFÍCIL para iniciantes
+- Usar MUITAS analogias diferentes
+- Repetir conceitos de formas variadas
+- Não ter pressa
+- Celebrar compreensão gradual
+- Preparar psicologicamente para o "click" mental
+
+IMPORTANTE:
+- Linguagem MUITO simples
+- MUITOS diagramas visuais
+- Comparações com mundo real
+- Paciência e encorajamento
+- Este é o alicerce de todo Rust!
+- Tom motivador: "você VAI entender!"
+
+Formato: markdown estruturado, MUITO visual, diagramas extensos, exemplos progressivos.

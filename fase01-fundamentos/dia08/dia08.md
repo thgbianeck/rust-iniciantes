@@ -144,7 +144,7 @@ Use `with_capacity()` quando souber quantos elementos vai adicionar para evitar 
 ### 📊 DIAGRAMA 2: Comparação Array vs Vector
 
 ```mermaid
-graph LR
+graph TD
     subgraph Array["ARRAY [T; N]"]
         A1["✓ Tamanho fixo"]
         A2["✓ Stack (rápido)"]
@@ -189,7 +189,7 @@ graph LR
 ### 📊 DIAGRAMA 3: Fluxograma de Operações CRUD
 
 ```mermaid
-flowchart TD
+flowchart LR
     Start["Vector Inicial<br/>[10, 20, 30]"] --> Operations{Escolha a Operação}
     
     Operations -->|CREATE| Push["push(40)"]
