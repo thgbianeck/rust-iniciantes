@@ -1,0 +1,108 @@
+Sou INICIANTE em programação em Rust. Dia 17: Borrowing (CHAVE para produtividade).
+
+Material sobre empréstimos (solução para ownership) com DESIGN INSTRUCIONAL:
+
+CONTEÚDO TÉCNICO:
+
+REGRAS DE BORROWING:
+1. Múltiplas referências imutáveis OU uma referência mutável
+2. Referências devem ser sempre válidas
+3. Não pode haver dangling references
+
+TÓPICOS:
+1. & (referência imutável): empresta sem ownership
+2. &mut (referência mutável): empresta com permissão de modificar
+3. Por que não pode ter &mut + & ao mesmo tempo
+4. Lifetimes implícitos (introdução suave)
+5. Borrow checker: o amigo rigoroso
+6. Quando usar ownership vs borrowing
+
+ESTRUTURA BASEADA EM DESIGN INSTRUCIONAL:
+
+📋 OBJETIVOS DE APRENDIZAGEM:
+- Dominar referências (&, &mut)
+- Aplicar regras de borrowing
+- Trabalhar COM o borrow checker
+
+🎭 ATIVAÇÃO DO CONHECIMENTO PRÉVIO:
+- Revisão de ownership (Dia 16)
+- Analogia CENTRAL: "Biblioteca"
+  * Ownership = comprar o livro
+  * & = emprestar para ler (múltiplas pessoas)
+  * &mut = emprestar para editar (apenas uma pessoa)
+- História sobre empréstimos seguros
+
+📚 APRESENTAÇÃO DO CONTEÚDO:
+
+DIAGRAMAS MERMAID OBRIGATÓRIOS (mínimo 6):
+1. Ownership vs Borrowing (comparação)
+2. Fluxograma de regras de borrowing
+3. Diagrama de sequência: múltiplos &
+4. Diagrama de sequência: único &mut
+5. Árvore de decisão: &, &mut ou ownership?
+6. Ciclo de vida de referências
+7. Borrow checker em ação
+
+VISUALIZAÇÕES:
+- Timeline de validade de referências
+- Tabela comparativa: &, &mut, ownership
+- Exemplos de empréstimos válidos/inválidos
+
+💡 DEMONSTRAÇÃO E MODELAGEM:
+- Evolução: código com ownership → com borrowing
+- Vantagens de borrowing
+- Casos de uso comuns
+- Idiomas do Rust
+
+🎯 PRÁTICA GUIADA (1 EXERCÍCIO COMPLETO):
+- Exercício: Refatoração com Borrowing
+  * Código inicial: funções consumindo ownership
+  * Problemas causados
+  * Refatorar para usar &
+  * Refatorar para usar &mut
+  * Implementar métodos (&self, &mut self)
+  * 10-15 snippets de fix borrow checker errors
+  * Para cada erro:
+    - Mensagem do compilador
+    - Explicação em português
+    - Solução
+    - Por que funciona agora
+  * Contexto: código real e prático
+  * Comparação antes/depois
+  * Solução completa
+  * Padrões identificados
+
+🔄 FEEDBACK E AVALIAÇÃO:
+- Checklist de borrowing
+- Exercícios de rastreamento
+- Quiz sobre regras
+- Auto-avaliação
+
+🚀 TRANSFERÊNCIA E APLICAÇÃO:
+- Prática com borrow checker
+- Preparação para Slices (Dia 18)
+- Recursos extras
+
+TÉCNICAS PEDAGÓGICAS:
+- Analogia de biblioteca/empréstimos
+- Comparação sistemática
+- Refatoração guiada
+- Aprendizagem através de erros
+- Borrow checker como tutor
+- Pattern recognition
+
+⚠️ PONTOS CRÍTICOS:
+- Borrow checker parece chato mas é seu amigo
+- Mensagens são educativas
+- Regras previnem bugs sérios
+- Com prática se torna natural
+- "Lutar contra" vs "trabalhar com"
+
+IMPORTANTE:
+- Muitos exemplos práticos
+- Borrow checker é aliado
+- Benefícios de segurança
+- Tom de colaboração
+- Celebrar domínio gradual
+
+Formato: markdown estruturado, exemplos de refatoração, foco em trabalhar COM o compilador.
