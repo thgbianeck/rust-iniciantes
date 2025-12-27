@@ -1,0 +1,89 @@
+Sou INICIANTE em programação em Rust. Dia 18: Slices.
+
+Material sobre Slices (views eficientes) com DESIGN INSTRUCIONAL:
+
+CONTEÚDO TÉCNICO:
+1. &str: slice de String (view)
+2. &[T]: slice de Vec<T> ou array
+3. Ranges: .., ..=, a.., ..b, a..b, a..=b
+4. Slices não possuem ownership (apenas olham)
+5. Métodos úteis de slices
+6. Slices como parâmetros de função (flexibilidade)
+
+ESTRUTURA BASEADA EM DESIGN INSTRUCIONAL:
+
+📋 OBJETIVOS DE APRENDIZAGEM:
+- Dominar conceito de slice
+- Usar String vs &str apropriadamente
+- Criar parsers eficientes
+
+🎭 ATIVAÇÃO DO CONHECIMENTO PRÉVIO:
+- Revisão de borrowing
+- Analogia CENTRAL: "Janela"
+  * String = prédio inteiro (ownership)
+  * &str = janela para parte do prédio (view)
+  * Eficiente: não copia, apenas olha
+- História sobre visualizações eficientes
+
+📚 APRESENTAÇÃO DO CONTEÚDO:
+
+DIAGRAMAS MERMAID OBRIGATÓRIOS (mínimo 5):
+1. Diagrama de memória: String com slice
+2. Comparação visual: String vs &str
+3. Fluxograma de ranges (todos tipos)
+4. Diagrama de camadas: ownership → borrowing → slice
+5. Sequência: criando e usando slices
+6. Performance: copy vs view
+
+VISUALIZAÇÕES:
+- String com "janelas" coloridas
+- Tabela de todos ranges
+- Comparação: substring (copia) vs slice (view)
+
+💡 DEMONSTRAÇÃO E MODELAGEM:
+- Exemplos progressivos
+- String vs &str em funções
+- Performance de slices
+- Padrões comuns
+
+🎯 PRÁTICA GUIADA (1 EXERCÍCIO COMPLETO):
+- Exercício: Parser de Texto com Slices
+  * Ler texto de entrada
+  * Dividir em palavras (split)
+  * Extrair substrings específicas
+  * Primeira palavra, última palavra
+  * Parsing de formato (ex: "nome:valor")
+  * Sem cópias desnecessárias
+  * Usar ranges variados
+  * Funções aceitando &str (flexíveis)
+  * Contexto: processamento eficiente
+  * Comparação: com String vs com &str
+  * Solução otimizada
+  * Medições de performance
+
+🔄 FEEDBACK E AVALIAÇÃO:
+- Checklist de slices
+- Quiz sobre ranges
+- Exercícios de otimização
+- Auto-avaliação
+
+🚀 TRANSFERÊNCIA E APLICAÇÃO:
+- Prática com text processing
+- Preparação para Lifetimes (Dia 19)
+- Recursos extras
+
+TÉCNICAS PEDAGÓGICAS:
+- Analogia de janelas/views
+- Visualização de memória
+- Comparação performance
+- Otimização prática
+- Zero-cost abstractions
+
+IMPORTANTE:
+- Slices são zero-cost
+- String vs &str é comum
+- Performance matters
+- Tom de eficiência
+- Preparar para lifetimes
+
+Formato: markdown estruturado, diagramas de memória, exemplos de parsing.
