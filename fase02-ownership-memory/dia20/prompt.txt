@@ -1,0 +1,91 @@
+Sou INICIANTE em programação em Rust. Dia 20: Box<T> (primeiro smart pointer).
+
+Material sobre Box com DESIGN INSTRUCIONAL:
+
+CONTEÚDO TÉCNICO:
+1. O que é Box<T>: ponteiro único para heap
+2. Quando usar Box:
+   - Tamanho desconhecido em tempo de compilação
+   - Transferir ownership de dados grandes
+   - Tipos recursivos
+3. Deref coercion: Box se comporta como T
+4. Drop automático (RAII)
+5. Comparação com ownership direto
+
+ESTRUTURA BASEADA EM DESIGN INSTRUCIONAL:
+
+📋 OBJETIVOS DE APRENDIZAGEM:
+- Entender quando e por que usar Box
+- Criar estruturas recursivas
+- Compreender smart pointers básicos
+
+🎭 ATIVAÇÃO DO CONHECIMENTO PRÉVIO:
+- Revisão de ownership e heap
+- Analogia CENTRAL: "Caixa de Transporte"
+  * Box = caixa especial que sempre está no heap
+  * Ponteiro único (ownership)
+  * Quando objeto é muito grande
+  * Quando tamanho é desconhecido
+- História sobre estruturas recursivas
+
+📚 APRESENTAÇÃO DO CONTEÚDO:
+
+DIAGRAMAS MERMAID OBRIGATÓRIOS (mínimo 5):
+1. Diagrama de memória: T vs Box<T>
+2. Tipos recursivos (por que precisam Box)
+3. Diagrama de classes: Deref trait
+4. Fluxograma: quando usar Box
+5. Sequência: Drop automático
+6. Comparação: Stack vs Heap com Box
+
+VISUALIZAÇÕES:
+- Linked List visual
+- Árvore com Box
+- Tabela: quando usar Box
+
+💡 DEMONSTRAÇÃO E MODELAGEM:
+- Problema: tipo recursivo sem Box (erro)
+- Solução: com Box (funciona)
+- Deref em ação
+- Padrões comuns
+
+🎯 PRÁTICA GUIADA (1 EXERCÍCIO COMPLETO):
+- Exercício: Linked List Simples
+  * Struct Node com Box<Node> opcional
+  * Implementar push_front
+  * Implementar pop_front
+  * Implementar len
+  * Implementar print
+  * Por que Box é necessário
+  * Entender recursão
+  * Contexto: estrutura de dados clássica
+  * Código comentado
+  * Solução passo a passo
+  * Extensões opcionais (push_back, remove)
+
+🔄 FEEDBACK E AVALIAÇÃO:
+- Checklist de conceitos
+- Quiz sobre quando usar Box
+- Exercícios de diagnóstico
+- Auto-avaliação
+
+🚀 TRANSFERÊNCIA E APLICAÇÃO:
+- Desafio: Binary Tree
+- Preparação para Rc/Arc (Dia 21)
+- Recursos complementares
+
+TÉCNICAS PEDAGÓGICAS:
+- Analogia de caixas
+- Problemas → soluções
+- Visualização de estruturas
+- Padrões de uso
+- Comparação sistemática
+
+IMPORTANTE:
+- Box é o smart pointer mais simples
+- Fundamental para estruturas recursivas
+- Heap allocation explícita
+- Tom de descoberta
+- Preparar para Rc/Arc
+
+Formato: markdown estruturado, diagramas de estruturas, exemplo de linked list.
